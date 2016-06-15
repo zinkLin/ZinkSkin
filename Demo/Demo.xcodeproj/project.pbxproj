@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12730E41D1147D2000B7376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D12730E31D1147D2000B7376 /* main.m */; };
+		D12730E71D1147D2000B7376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D12730E61D1147D2000B7376 /* AppDelegate.m */; };
+		D12730EA1D1147D2000B7376 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12730E91D1147D2000B7376 /* HomeViewController.m */; };
+		D12730ED1D1147D2000B7376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12730EB1D1147D2000B7376 /* Main.storyboard */; };
+		D12730EF1D1147D2000B7376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12730EE1D1147D2000B7376 /* Assets.xcassets */; };
+		D12730F21D1147D2000B7376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12730F01D1147D2000B7376 /* LaunchScreen.storyboard */; };
+		D127311C1D114C4F000B7376 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D127311B1D114C4F000B7376 /* SettingViewController.m */; };
+		D12731341D114F27000B7376 /* UIButton+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731201D114F27000B7376 /* UIButton+ZinkSkin.m */; };
+		D12731351D114F27000B7376 /* UIImageView+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731221D114F27000B7376 /* UIImageView+ZinkSkin.m */; };
+		D12731361D114F27000B7376 /* UILabel+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731241D114F27000B7376 /* UILabel+ZinkSkin.m */; };
+		D12731371D114F27000B7376 /* UITextField+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731261D114F27000B7376 /* UITextField+ZinkSkin.m */; };
+		D12731381D114F27000B7376 /* UIView+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731281D114F27000B7376 /* UIView+ZinkSkin.m */; };
+		D12731391D114F27000B7376 /* DKDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = D127312B1D114F27000B7376 /* DKDeallocBlockExecutor.m */; };
+		D127313A1D114F27000B7376 /* NSObject+DeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D127312D1D114F27000B7376 /* NSObject+DeallocBlock.m */; };
+		D127313B1D114F27000B7376 /* NSObject+ZinkSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D127312F1D114F27000B7376 /* NSObject+ZinkSkin.m */; };
+		D127313C1D114F27000B7376 /* ZinkSkinInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731311D114F27000B7376 /* ZinkSkinInfo.m */; };
+		D127313D1D114F27000B7376 /* ZinkSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D12731331D114F27000B7376 /* ZinkSkinManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D12730DF1D1147D2000B7376 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12730E31D1147D2000B7376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D12730E51D1147D2000B7376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D12730E61D1147D2000B7376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D12730E81D1147D2000B7376 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D12730E91D1147D2000B7376 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D12730EC1D1147D2000B7376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D12730EE1D1147D2000B7376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D12730F11D1147D2000B7376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D12730F31D1147D2000B7376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D127311A1D114C4F000B7376 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D127311B1D114C4F000B7376 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D127311F1D114F27000B7376 /* UIButton+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZinkSkin.h"; sourceTree = "<group>"; };
+		D12731201D114F27000B7376 /* UIButton+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZinkSkin.m"; sourceTree = "<group>"; };
+		D12731211D114F27000B7376 /* UIImageView+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZinkSkin.h"; sourceTree = "<group>"; };
+		D12731221D114F27000B7376 /* UIImageView+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZinkSkin.m"; sourceTree = "<group>"; };
+		D12731231D114F27000B7376 /* UILabel+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZinkSkin.h"; sourceTree = "<group>"; };
+		D12731241D114F27000B7376 /* UILabel+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZinkSkin.m"; sourceTree = "<group>"; };
+		D12731251D114F27000B7376 /* UITextField+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZinkSkin.h"; sourceTree = "<group>"; };
+		D12731261D114F27000B7376 /* UITextField+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZinkSkin.m"; sourceTree = "<group>"; };
+		D12731271D114F27000B7376 /* UIView+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZinkSkin.h"; sourceTree = "<group>"; };
+		D12731281D114F27000B7376 /* UIView+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZinkSkin.m"; sourceTree = "<group>"; };
+		D127312A1D114F27000B7376 /* DKDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDeallocBlockExecutor.h; sourceTree = "<group>"; };
+		D127312B1D114F27000B7376 /* DKDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDeallocBlockExecutor.m; sourceTree = "<group>"; };
+		D127312C1D114F27000B7376 /* NSObject+DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocBlock.h"; sourceTree = "<group>"; };
+		D127312D1D114F27000B7376 /* NSObject+DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocBlock.m"; sourceTree = "<group>"; };
+		D127312E1D114F27000B7376 /* NSObject+ZinkSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZinkSkin.h"; sourceTree = "<group>"; };
+		D127312F1D114F27000B7376 /* NSObject+ZinkSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZinkSkin.m"; sourceTree = "<group>"; };
+		D12731301D114F27000B7376 /* ZinkSkinInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZinkSkinInfo.h; sourceTree = "<group>"; };
+		D12731311D114F27000B7376 /* ZinkSkinInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinkSkinInfo.m; sourceTree = "<group>"; };
+		D12731321D114F27000B7376 /* ZinkSkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZinkSkinManager.h; sourceTree = "<group>"; };
+		D12731331D114F27000B7376 /* ZinkSkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZinkSkinManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D12730DC1D1147D2000B7376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D12730D61D1147D2000B7376 = {
+			isa = PBXGroup;
+			children = (
+				D12730E11D1147D2000B7376 /* Demo */,
+				D12730E01D1147D2000B7376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D12730E01D1147D2000B7376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D12730DF1D1147D2000B7376 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12730E11D1147D2000B7376 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D127311D1D114F27000B7376 /* ZinkSkin */,
+				D12730E51D1147D2000B7376 /* AppDelegate.h */,
+				D12730E61D1147D2000B7376 /* AppDelegate.m */,
+				D12730E81D1147D2000B7376 /* HomeViewController.h */,
+				D12730E91D1147D2000B7376 /* HomeViewController.m */,
+				D127311A1D114C4F000B7376 /* SettingViewController.h */,
+				D127311B1D114C4F000B7376 /* SettingViewController.m */,
+				D12730EB1D1147D2000B7376 /* Main.storyboard */,
+				D12730EE1D1147D2000B7376 /* Assets.xcassets */,
+				D12730F01D1147D2000B7376 /* LaunchScreen.storyboard */,
+				D12730F31D1147D2000B7376 /* Info.plist */,
+				D12730E21D1147D2000B7376 /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D12730E21D1147D2000B7376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12730E31D1147D2000B7376 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D127311D1D114F27000B7376 /* ZinkSkin */ = {
+			isa = PBXGroup;
+			children = (
+				D127311E1D114F27000B7376 /* Category */,
+				D12731291D114F27000B7376 /* Other */,
+				D12731321D114F27000B7376 /* ZinkSkinManager.h */,
+				D12731331D114F27000B7376 /* ZinkSkinManager.m */,
+			);
+			name = ZinkSkin;
+			path = ../../ZinkSkin;
+			sourceTree = "<group>";
+		};
+		D127311E1D114F27000B7376 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D127311F1D114F27000B7376 /* UIButton+ZinkSkin.h */,
+				D12731201D114F27000B7376 /* UIButton+ZinkSkin.m */,
+				D12731211D114F27000B7376 /* UIImageView+ZinkSkin.h */,
+				D12731221D114F27000B7376 /* UIImageView+ZinkSkin.m */,
+				D12731231D114F27000B7376 /* UILabel+ZinkSkin.h */,
+				D12731241D114F27000B7376 /* UILabel+ZinkSkin.m */,
+				D12731251D114F27000B7376 /* UITextField+ZinkSkin.h */,
+				D12731261D114F27000B7376 /* UITextField+ZinkSkin.m */,
+				D12731271D114F27000B7376 /* UIView+ZinkSkin.h */,
+				D12731281D114F27000B7376 /* UIView+ZinkSkin.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D12731291D114F27000B7376 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D127312A1D114F27000B7376 /* DKDeallocBlockExecutor.h */,
+				D127312B1D114F27000B7376 /* DKDeallocBlockExecutor.m */,
+				D127312C1D114F27000B7376 /* NSObject+DeallocBlock.h */,
+				D127312D1D114F27000B7376 /* NSObject+DeallocBlock.m */,
+				D127312E1D114F27000B7376 /* NSObject+ZinkSkin.h */,
+				D127312F1D114F27000B7376 /* NSObject+ZinkSkin.m */,
+				D12731301D114F27000B7376 /* ZinkSkinInfo.h */,
+				D12731311D114F27000B7376 /* ZinkSkinInfo.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D12730DE1D1147D2000B7376 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12730F61D1147D2000B7376 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				D12730DB1D1147D2000B7376 /* Sources */,
+				D12730DC1D1147D2000B7376 /* Frameworks */,
+				D12730DD1D1147D2000B7376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = D12730DF1D1147D2000B7376 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D12730D71D1147D2000B7376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ICBC;
+				TargetAttributes = {
+					D12730DE1D1147D2000B7376 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D12730DA1D1147D2000B7376 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D12730D61D1147D2000B7376;
+			productRefGroup = D12730E01D1147D2000B7376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D12730DE1D1147D2000B7376 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D12730DD1D1147D2000B7376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12730F21D1147D2000B7376 /* LaunchScreen.storyboard in Resources */,
+				D12730EF1D1147D2000B7376 /* Assets.xcassets in Resources */,
+				D12730ED1D1147D2000B7376 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D12730DB1D1147D2000B7376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12730EA1D1147D2000B7376 /* HomeViewController.m in Sources */,
+				D127311C1D114C4F000B7376 /* SettingViewController.m in Sources */,
+				D12731391D114F27000B7376 /* DKDeallocBlockExecutor.m in Sources */,
+				D127313C1D114F27000B7376 /* ZinkSkinInfo.m in Sources */,
+				D127313D1D114F27000B7376 /* ZinkSkinManager.m in Sources */,
+				D12731341D114F27000B7376 /* UIButton+ZinkSkin.m in Sources */,
+				D12730E71D1147D2000B7376 /* AppDelegate.m in Sources */,
+				D12731371D114F27000B7376 /* UITextField+ZinkSkin.m in Sources */,
+				D12731381D114F27000B7376 /* UIView+ZinkSkin.m in Sources */,
+				D12731361D114F27000B7376 /* UILabel+ZinkSkin.m in Sources */,
+				D127313A1D114F27000B7376 /* NSObject+DeallocBlock.m in Sources */,
+				D12730E41D1147D2000B7376 /* main.m in Sources */,
+				D127313B1D114F27000B7376 /* NSObject+ZinkSkin.m in Sources */,
+				D12731351D114F27000B7376 /* UIImageView+ZinkSkin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D12730EB1D1147D2000B7376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12730EC1D1147D2000B7376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D12730F01D1147D2000B7376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D12730F11D1147D2000B7376 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D12730F41D1147D2000B7376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D12730F51D1147D2000B7376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D12730F71D1147D2000B7376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ICBC.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D12730F81D1147D2000B7376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ICBC.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D12730DA1D1147D2000B7376 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12730F41D1147D2000B7376 /* Debug */,
+				D12730F51D1147D2000B7376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12730F61D1147D2000B7376 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12730F71D1147D2000B7376 /* Debug */,
+				D12730F81D1147D2000B7376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D12730D71D1147D2000B7376 /* Project object */;
+}
