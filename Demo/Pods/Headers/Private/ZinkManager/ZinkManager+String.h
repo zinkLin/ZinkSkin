@@ -1,0 +1,1 @@
+../../../ZinkManager/ZinkManager/ZinkManager+String.h

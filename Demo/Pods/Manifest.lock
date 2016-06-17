@@ -1,0 +1,13 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - ZinkManager (1.0.0):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - ZinkManager
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  ZinkManager: ee476cc035dab192e9b7460e30949a7fdc917142
+
+COCOAPODS: 0.39.0
