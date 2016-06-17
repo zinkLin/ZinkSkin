@@ -10,14 +10,14 @@ s.requires_arc = true
 s.ios.deployment_target = '7.0'
 s.dependency 'ZinkManager'
 
-s.source_files = "ZinkSkin/*"
+s.source_files = "ZinkSkin/ZinkSkinManager.{h,m}"
 
 s.subspec 'Category' do |ss|
-  ss.source_files = 'ZinkSkin/Category/**'
+  ss.source_files = 'ZinkSkin/UIButton+ZinkSkin.{h,m}', 'ZinkSkin/UIImageView+ZinkSkin.{h,m}', 'ZinkSkin/UILabel+ZinkSkin.{h,m}', 'ZinkSkin/UITextField+ZinkSkin.{h,m}', 'ZinkSkin/UITextView+ZinkSkin.{h,m}', 'ZinkSkin/UIView+ZinkSkin.{h,m}'
 end
 
 s.subspec 'Other' do |ss|
-  ss.source_files = 'ZinkSkin/Other/**'
+  ss.source_files = 'ZinkSkin/DKDeallocBlockExecutor.{h,m}', 'ZinkSkin/NSObject+DeallocBlock.{h,m}', 'ZinkSkin/NSObject+ZinkSkin.{h,m}', 'ZinkSkin/ZinkSkinInfo.{h,m}'
 end
 
 end
