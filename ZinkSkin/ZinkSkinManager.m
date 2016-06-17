@@ -7,7 +7,9 @@
 //
 
 #import "ZinkSkinManager.h"
+#import "ZinkManager+Storage.h"
 
+NSString * const kSkinPersistenceKey = @"kSkinPersistenceKey";
 NSString * const kViewSkinChangeNotification = @"kViewSkinChangeNotification";
 NSString * const kControlSkinChangeNotification = @"kControlSkinChangeNotification";
 
@@ -28,9 +30,14 @@ NSString * const kControlSkinChangeNotification = @"kControlSkinChangeNotificati
 }
 
 - (void)setSkinType:(SkinType)skinType {
-    _skinType = skinType;
+    [ZinkManager zinkSaveString:@(skinType).stringValue byKey:kSkinPersistenceKey];
     [[NSNotificationCenter defaultCenter] postNotificationName:kViewSkinChangeNotification object:nil];
     [[NSNotificationCenter defaultCenter] postNotificationName:kControlSkinChangeNotification object:nil];
+}
+
+- (SkinType)skinType {
+    SkinType type = [ZinkManager zinkLoadStringByKey:kSkinPersistenceKey].integerValue;
+    return type;
 }
 
 @end
