@@ -12,6 +12,7 @@
 #import "UIButton+ZinkSkin.h"
 #import "UIImageView+ZinkSkin.h"
 #import "UITextField+ZinkSkin.h"
+#import "UITextView+ZinkSkin.h"
 
 /**
  *  皮肤更改通知
