@@ -102,5 +102,5 @@ UIButton *button;
 `ZinkSkinManager`每次换肤时，都会发出通知:`kViewSkinChangeNotification`。
 可以监听该通知，来修改对应的视图。
 
-# <a id="Thanks"></a> 感谢
+# <a id="Thanks"></a>感谢
 感谢Draveness的无私分享：[DKNightVersion](https://github.com/Draveness/DKNightVersion)
